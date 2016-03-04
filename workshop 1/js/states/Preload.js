@@ -17,7 +17,7 @@ Preload.prototype = {
 
         this.load.onLoadComplete.add(function () {
             console.log('loading complete');
-            this.game.state.start('Play');
+            this.game.state.start('Menu');
         }, this);
     },
     create: function () {
